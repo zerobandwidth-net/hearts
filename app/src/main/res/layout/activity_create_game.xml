@@ -1,0 +1,95 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CreateGameActivity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    >
+    
+<LinearLayout 
+    android:id="@+id/lay_CreateGameActivity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        
+    	<TextView
+	        android:id="@+id/lbl_HowManyPlayers"
+        	android:gravity="right|center_vertical"
+        	android:layout_width="wrap_content"
+        	android:layout_height="match_parent"
+        	android:layout_weight="8"
+        	android:text="@string/txt_HowManyPlayers"
+        	/>
+    
+    	<NumberPicker 
+	        android:id="@+id/npk_PlayerCount"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:inputType="number"
+        	/>
+    	
+    	<LinearLayout
+    	    android:layout_height="match_parent"
+    	    android:layout_width="wrap_content"
+    	    android:layout_weight="6"
+    	    android:gravity="left|center_vertical"
+    	    android:orientation="vertical" 
+    	    >
+    	    
+    		<CheckBox 
+	    	    android:id="@+id/chk_DoubleDeck"
+    	    	android:layout_width="wrap_content"
+    	    	android:layout_height="wrap_content"
+    	    	android:text="@string/chk_DoubleDeck"
+    	    	/>
+    		
+    		<CheckBox
+    		    android:id="@+id/chk_Omnibus"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:text="@string/chk_Omnibus"
+    		    />
+    		
+    		<CheckBox
+    		    android:id="@+id/chk_Hooligan"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:text="@string/chk_Hooligan"
+    		    />
+    	
+    	</LinearLayout>
+    	
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/lbl_PlayerNamesHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_PlayerNames"
+        />
+    
+    <!-- Objects similar to this will be managed dynamically.
+    <EditText
+        android:id="@+id/txt_PlayerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/txt_PlayerName_hint"
+        />    
+    -->
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/ -->
+
+    <item
+        android:id="@+id/action_add_round"
+        android:icon="@drawable/icon_heart_add"
+        android:title="@string/act_AddRound"
+        android:showAsAction="always"
+        />
+    
+    <item 
+        android:id="@+id/action_switch_table_mode"
+        android:icon="@drawable/icon_table_row"
+        android:title="@string/act_TableMode_Box"
+        android:showAsAction="ifRoom"
+        />
+    
+    <item 
+        android:id="@+id/action_dump_html"
+        android:icon="@drawable/icon_table_go"
+        android:title="@string/act_ExportToHTML"
+        android:showAsAction="ifRoom"
+        />
+    
+</menu>

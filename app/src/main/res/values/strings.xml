@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hearts Scoreboard</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="act_AddRound">Add Round</string>
+    <string name="act_ExportToHTML">Export to HTML</string>
+    <string name="act_TableMode_Box">Box Score Mode (click for running totals)</string>
+    <string name="act_TableMode_Sum">Running Totals (click for box scores)</string>
+    <string name="act_CreateGame">OK</string>
+    <string name="btn_NewGame">New Game&#8230;</string>
+    <string name="chk_Angel">"Angel": Acted charitably.</string>
+    <string name="chk_Dagger">"Dagger": Acted maliciously.</string>
+    <string name="chk_DoubleDeck">Double deck</string>
+    <string name="chk_Failed">Missed the moon&#8230;</string>
+    <string name="chk_Fisher">"Fisher": Passed Q&#9824;, then led spades.</string>
+    <string name="chk_Hooligan">"Hooligan" (7&#9827; is +7)</string>
+    <string name="chk_Hooligan1">Took 7&#9827;</string>
+    <string name="chk_Hooligan2">Took both 7&#9827;</string>
+    <string name="chk_NullHand">Null Hand (no tricks taken)</string>
+    <string name="chk_Omnibus">"Omnibus" (J&#9830; is -10)</string>
+    <string name="chk_Omnibus1">Took J&#9830;</string>
+    <string name="chk_Omnibus2">Took both J&#9830;</string>
+    <string name="chk_Poisoner">"Poisoner": Led Q&#9824; knowing someone would be forced to take her.</string>
+    <string name="chk_Queen1">Took Q&#9824;</string>
+    <string name="chk_Queen2">Took both Q&#9824;</string>
+    <string name="lbl_HeartCount">Hearts Taken</string>
+    <string name="lbl_PlayerNames">Players:&#160;</string>
+    <string name="rad_FullMoon">Full Moon!&#160;</string>
+    <string name="rad_FullMoonVictim">Full Moon victim&#160;</string>
+    <string name="rad_HalfMoon">Half Moon! (-26/+26)</string>
+    <string name="rad_HalfMoonVictim">Half Moon victim (+26)</string>
+    <string name="rad_NewMoon">New Moon!&#160;</string>
+    <string name="rad_NormalHand">(no special marks)</string>
+    <string name="txt_ScoreTableBackAlert">Do you really want go back to the game creation screen?\n(The current game will be lost!)</string>
+    <string name="txt_IntroScreen">Hearts Scoreboard\nVersion 0.99.2015.09.24</string>
+    <string name="txt_HowManyPlayers">How many players in this game?</string>
+    <string name="txt_OldScore">Old Score:&#160;</string>
+    <string name="txt_NewScore">New Score:&#160;</string>
+    <string name="txt_PlayerName_hint">(player name)</string>
+    <string name="title_activity_BoxScoreEditor">Edit box score</string>
+    <string name="title_activity_create_game">Game Setup</string>
+    <string name="title_activity_score_grid">Box Scores</string>
+    <string name="title_activity_score_table">Score Table</string>
+    <string name="title_dialog_ScoreTableBackAlert">Wait, what?</string>
+
+</resources>
