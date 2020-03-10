@@ -16,6 +16,9 @@ gen/
 .gradle/
 build/
 /*/build/
+gradlew
+gradlew.bat
+gradle/wrapper
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -25,3 +28,7 @@ proguard/
 
 # Log Files
 *.log
+
+# Android Studio project files
+.idea
+*.iml
